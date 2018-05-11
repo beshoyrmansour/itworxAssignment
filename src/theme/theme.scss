@@ -1,0 +1,51 @@
+/*
+ * Global application theme.
+ * Framework overrides and customization goes here.
+ */
+
+
+@font-face {
+    font-family: 'bukra';
+    font-style: normal;
+    src: url('assets/BukraFont/TTF/29ltbukraregular.ttf') format('truetype'),
+         url('assets/BukraFont/TTF/29ltbukrabolditalic.ttf') format('truetype'),
+         url('assets/BukraFont/TTF/29ltbukralight.ttf') format('truetype'),
+         url('assets/BukraFont/TTF/29ltbukraregular.ttf') format('truetype'),
+         url('assets/BukraFont/OTF/29ltbukraregular.otf') format('opentype'),
+         url('assets/BukraFont/OTF/29ltbukrabolditalic.otf') format('opentype'),
+         url('assets/BukraFont/OTF/29ltbukralight.otf') format('opentype'),
+         url('assets/BukraFont/OTF/29ltbukraregular.otf') format('opentype'),
+  }
+  
+.b-t-default {
+      border-top: 1px solid #d6d6d6;
+}
+.b-b-default {
+      border-bottom: 1px solid #d6d6d6;
+}
+  
+.b-r-default {
+      border-right: 1px solid #d6d6d6;
+}
+.b-l-default {
+      border-left: 1px solid #d6d6d6;
+}
+.card{
+      border-radius: 0px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+      border-color: $white;
+      border-bottom-color: $e-active-blue;
+      border-bottom-width: .2rem;
+}
+.nav-tabs .nav-link{
+            color: #5f616e;
+}
+.nav-tabs .nav-link.active{
+            color: #505364;
+            font-weight: bold;
+}
+.tab-pane{
+      min-height: 300px;
+}

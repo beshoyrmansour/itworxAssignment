@@ -1,0 +1,35 @@
+<div class="container-fluid text-right m-0 p-0 pb-3 align-top">
+  <nav class="navbar bg-white">
+    <a class="navbar-brand float-right" href="#">
+      <img class="float-right" src="/assets/logo.jpg" height="30" alt="">
+    </a>
+  </nav>
+
+  <nav class="navbar navbar-light bg-light p-0">
+    <span class="navbar-brand mb-0 h1">لوحة مؤشرات الاداء</span>
+  </nav>
+
+  <div class="container-fluid ">
+    <app-summary-dashboard
+      [name]="selectedProject.name"
+      [owner]="selectedProject.owner"
+      [startDate]="selectedProject.startDate"
+      [endDate]="selectedProject.endDate"
+      [oldActual]="selectedProject.oldActual"
+      [achieved]="selectedProject.achieved"
+      [currentTarget]="selectedProject.currentTarget"
+      [nextTarget]="selectedProject.nextTarget" 
+      [InitiativesAndProjects]="InitiativesAndProjects" 
+    ></app-summary-dashboard>
+    <div class="row px-2">
+      <div class="col-lg-6 col-md-12 col-sm-12 card p-0">
+        <app-maps-dashboard></app-maps-dashboard>
+      </div>
+
+      <div class="col-lg-5 col-md-12 col-sm-12 card p-0 mr-3">
+        <app-details-dashboard></app-details-dashboard>
+      </div>
+    </div>
+  </div>
+
+</div>

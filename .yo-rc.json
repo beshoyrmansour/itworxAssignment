@@ -1,0 +1,20 @@
+{
+  "generator-ngx-rocket": {
+    "version": "4.2.0",
+    "props": {
+      "location": "path",
+      "appName": "itworxAssignment",
+      "target": [
+        "web"
+      ],
+      "pwa": false,
+      "ui": "bootstrap",
+      "auth": false,
+      "lazy": true,
+      "angulartics": false,
+      "projectName": "itworx-assignment",
+      "packageManager": "npm",
+      "mobile": []
+    }
+  }
+}

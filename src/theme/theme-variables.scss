@@ -1,0 +1,60 @@
+/*
+ * Application global variables.
+ */
+
+// Set Font Awesome font path
+$fa-font-path: "~@fortawesome/fontawesome-free-webfonts/webfonts";
+
+// ---------------------------------------------------------------------------
+// Bootstrap variables
+//
+// Override Bootstrap variables here to suite your theme.
+// Copy variables you want to customize from node_modules/bootstrap/scss/_variables.scss
+
+//
+// Color system
+//
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+$blue:     #0073dd;
+$indigo:   #6610f2;
+$purple:   #6f42c1;
+$pink:     #e83e8c;
+$red:      #F63934;
+$orange:   #F69D33;
+$yellow:   #ffc107;
+$green:    #7DBC43;
+$teal:     #20c997;
+$cyan:     #17a2b8;
+// My Variables
+$e-bg-default: #ebebeb;
+$e-bg-light:   #f8f8f8;
+$e-blue:       #3186C7;
+$e-dark-blue:  #223D52;
+$e-active-blue:#2f87c7;
+$e-gold:       #c2b277;
+$theme-colors: (
+  primary:   $e-blue,
+  secondary: $gray-600,
+  success:   $green,
+  info:      $e-active-blue,
+  warning:   $orange,
+  danger:    $red,
+  light:     $e-bg-light,
+  dark:      $e-dark-blue
+);
+
+// Use Bootstrap defaults for other variables, imported here so we can access all app variables in one place when used
+// in components.
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
